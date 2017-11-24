@@ -5,5 +5,5 @@ class AppointmentsController < ApplicationController
     @doctor = @appointment.doctor
     @patient = @appointment.patient
   end
-  
+
 end
