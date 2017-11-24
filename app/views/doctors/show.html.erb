@@ -3,5 +3,4 @@
 <%@doctor.appointments.each do |appointment|%>
   <p><%= appointment.patient.name %></p>
   <p><%= appointment.appointment_datetime.strftime('%B %d, %Y at %I:%M')%></p>
-
 <%end%>
