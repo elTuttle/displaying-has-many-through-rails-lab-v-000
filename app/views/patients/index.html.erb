@@ -1,3 +1,4 @@
 <%= @patients.each do |patient| %>
-
+  <h2><%= link_to patient.name, patient_path(patient)%></h2>
+  <p><%= pluralize(artist.songs.count, 'song') %></p>
 <%end%>
